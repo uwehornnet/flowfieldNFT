@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useCallback, useEffect, useState, useRef, useMemo } from "react";
+import { useEffect, useState, useRef } from "react";
 
 import Head from "next/head";
 import Renderer from "../lib/Renderer";
 import { Contract, utils } from "ethers";
-import { useAccount, useContract, useProvider, useSigner, useConnect } from "wagmi";
+import { useAccount, useSigner } from "wagmi";
 
 import { CustomConnectButton } from "../components/CustomConnectButton";
 
